@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700');
+*{
+  margin: 0;
+  padding: 0;
+}
+
+header, footer, .block {
+  position: relative;
+  overflow: hidden;
+  display: block;
+  min-width: 882px;
+}
+.about{
+  overflow: visible;
+}
+
+.shadow{
+  box-shadow: 5px 5px 20px rgba(0,0,0,0.5);
+}
+body{
+  background-color: #CFD8DC;
+  overflow: visible;
+}
+header{
+  height: 400px;
+  background-color: #455A64;
+  box-shadow: 5px 6px 20px rgba(0,0,0,0.5);
+}
+.container{
+  width: 100%;
+  max-width: 900px;
+  min-width: 882px;
+  margin: auto;
+}
+h1{
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  letter-spacing: 5px;
+  font-size: 100px;
+  color: #FFFFFF;
+  padding: 30px 50px;
+  width: 50%;
+  box-sizing: border-box;
+  display: block;
+  float: left;
+  text-align: end;
+  font-weight: 100;
+  line-height: 100%;
+}
+
+header img{
+  display: block;
+  width: 200px;
+  margin: auto;
+  padding: 130px 0px 0px;
+}
+
+.why{
+  width: 500px;
+  background-color: white;
+}
+
+.about {
+  margin-top: -150px;
+}
+
+.button{
+  background-color: #795548;
+  text-decoration: none;
+  color: white;
+  width: 200px;
+  display: block;
+  height: 60px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 30px;
+  text-align: center;
+  line-height: 60px;
+  border-radius: 30px;
+  float: right;
+  margin: -85px 0 0;
+  transition: all 0.1s linear;
+  box-shadow: 0px 3px 10px rgba(0,0,0,0.4);
+}
+.button:hover{
+  height: 70px;
+  line-height: 70px;
+  border-radius: 35px;
+  width: 210px;
+  margin: -90px -5px 0;
+  font-size: 32px;
+  box-shadow: 0px 3px 10px rgba(0,0,0,0.6);
+}
+.why .header{
+  margin-top: 30px;
+  padding: 20px;
+  font-size: 24px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+}
+.why .text{
+  padding: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+}
+
+.coolses{
+  margin: 15px auto 0;
+  padding: 20px;
+}
+.coolses .item{
+  background-color: white;
+  margin-right:1%;
+  width: 32%;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+}
+.coolses .item:last-child{
+  margin-right: 0;
+}
+.coolses .item *{
+  padding: 10px;
+}
+
+.coolses .item .header{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+}
+.coolses .item .text{
+  font-family: 'Roboto', sans-serif;
+}
+
+.concept .header{
+  margin-top: 30px;
+  padding: 20px;
+  font-size: 24px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+}
+.concept .text{
+  padding: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+}
+.concept .item{
+  width: 32%;
+  display: inline-block;
+  background-color: white;
+  text-align: center;
+  margin: 10px auto;
+  margin-right:1%;
+  vertical-align: top;
+  height: 379px;
+}
+.concept .item.two{
+  width: calc(65% + 4px);
+  text-align: center;
+  vertical-align: top;
+  height: 379px;
+}
+.concept .advantages{
+}
+.concept{
+  padding: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+}
+.concept .advantages .advantage{
+  background-color: #BDBDBD;
+  width: 30%;
+  padding: 60px 0;
+  margin: 1%;
+  display: inline-block;
+  text-align: center;
+}
+.concept .advantages .advantage .head{
+  padding: 0 10px;
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 30px
+}
+.concept .advantages .advantage .image{
+  width: 100px;
+  height: 100px;
+  margin: auto;
+}
+.concept .advantages .advantage img{
+  width: 100px;
+  height: 100px;
+}
+.concept .item > img{
+  width: 220px;
+  display: inline-block;
+}
+
+.concept .item.four img{
+  margin-top:40px;
+}
+.concept .item.five img{
+  margin-top:80px;
+}
+
+footer{
+  background-color: #BDBDBD;
+  box-shadow: 0px -5px 20px rgba(0,0,0,0.5);
+}
+
+footer .container{
+  padding: 20px 0;
+  vertical-align: middle;
+  text-align: center;
+}
+footer img{
+  width: 100px;
+}
+footer a{
+  text-decoration: none;
+  font-family:'Roboto', sans-serif;
+  color:#0d2636;
+  display: block;
+  transition: all .2s linear;
+}
+footer a:hover{
+  color:black;
+  text-decoration: underline;
+}
+.clear{
+  clear:both;
+  overflow: hidden;
+}
+
+.example header{
+  height: auto;
+}
+.example header .container{
+  min-width: 883px;
+}
+.example h1{
+  width: auto;
+  font-size: 70px;
+  display: inline-block;
+  line-height: 100px;
+}
+.example header img{
+  width: 100px;
+  display: inline-block;
+  padding: 30px 50px;
+}
+.example .backbutton{
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  background-image: url(images/return.svg);
+  position: relative;
+  display: block;
+  z-index: 100;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 50%;
+  background-color: #795548;
+  transition: all 0.2s linear;
+  box-shadow: 0px 0px 20px rgba(0,0,0,0.5);
+  margin: 10px;
+  margin-right: 180px;
+  float: right;
+}
+.example .backbutton:hover{
+  transform: rotate(360deg);
+  width: 70px;
+  height: 70px;
+  border-radius: 35px;
+  margin-top: 5px;
+  margin-right: 175px;
+}
+.blockofbutton{
+  margin-top: -40px;
+  margin-bottom: 100px;
+}
+.step{
+  padding-bottom: 30px;
+}
+.step .header{
+  padding: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 23px;
+  font-weight: 500;
+}
+.step .description{
+  padding: 5px 20px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+}
+.step .image{
+  padding: 5px 20px 20px;
+}
+.step img{
+  width: 100%;
+}
+.step .container{
+  background-color: white;
+  width: 100%;
+}
+.step.block{
+  overflow: visible;
+  margin-top: 30px;
+}
